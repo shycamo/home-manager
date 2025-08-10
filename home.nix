@@ -16,7 +16,7 @@
     homeDirectory = "/home/${username}";
   };
 
-  # list where you can specify unfree packages to allow
+  # List where you can specify unfree packages to allow
   nixpkgs.config.allowUnfree = true;
 
   # List packages you want to install here, 4 spaces from the line start
