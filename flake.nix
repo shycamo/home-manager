@@ -15,7 +15,7 @@
     home-manager,
   } @ inputs: let
     username = "ash";
-    hostname = "fedora";
+    hostname = "shitheap";
 
     homeConfigUserString =
       if username == "unknown_username"
