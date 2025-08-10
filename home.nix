@@ -28,6 +28,7 @@
     obs-studio
     streamcontroller
     azahar
+    vlc
 
   ];
 }
