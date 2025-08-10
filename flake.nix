@@ -29,7 +29,7 @@
     genSystems = nixpkgs.lib.genAttrs supportedSystems;
     pkgs = genSystems (system: import nixpkgs {inherit system;});
 
-    # I have no fucking idea what this means but it seems important so don't touch it
+    # I have no idea what this means but it seems important so don't touch it
     stateVersion = "22.11";
 
   in {
