@@ -8,7 +8,7 @@
 }: {
   imports = [];
 
-  # assume you're not using nixOS
+  # Assuming you're not using nixOS
   targets.genericLinux.enable = true;
 
   home = {
