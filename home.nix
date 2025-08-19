@@ -8,7 +8,7 @@
 }: {
   imports = [];
 
-  # Assuming you're not using nixOS
+  # Set to "true" if you aren't using NixOS
   targets.genericLinux.enable = true;
 
   home = {
@@ -16,19 +16,27 @@
     homeDirectory = "/home/${username}";
   };
 
-  # List where you can specify unfree packages to allow
+  # Enables unfree packages (don't disable for any reason)
   nixpkgs.config.allowUnfree = true;
 
   # List packages you want to install here, 4 spaces from the line start
   # Don't worry if they don't initially show up in your launcher, they will after a few minutes
   home.packages = with pkgs; [
+    bottles
+    winetricks
+    protonvpn-gui
+    waydroid
+    pfetch
+    vlc
     floorp
     discord
     spotify
     obs-studio
     streamcontroller
     azahar
-    vlc
-
+    blender
+    prismlauncher
+    steam
+    heroic
   ];
 }
