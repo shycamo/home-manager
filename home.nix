@@ -22,12 +22,13 @@
   # List packages you want to install here, 4 spaces from the line start
   # Don't worry if they don't initially show up in your launcher, they will after a few minutes
   home.packages = with pkgs; [
-    bottles
-    winetricks
+    # SYSTEM PACKAGES #
+    protontricks
     protonvpn-gui
     waydroid
     pfetch
     vlc
+    # USER PACKAGES #
     floorp
     discord
     spotify
@@ -36,7 +37,6 @@
     azahar
     blender
     prismlauncher
-    steam
     heroic
   ];
 }
