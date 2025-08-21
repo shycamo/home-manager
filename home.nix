@@ -28,6 +28,7 @@
     waydroid
     pfetch
     vlc
+    xclicker
     # USER PACKAGES #
     floorp
     discord
@@ -35,6 +36,7 @@
     obs-studio
     streamcontroller
     azahar
+    cemu
     blender
     prismlauncher
     heroic
