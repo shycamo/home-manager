@@ -40,5 +40,7 @@
     blender
     prismlauncher
     heroic
+    godot
+    
   ];
 }
