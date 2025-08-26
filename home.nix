@@ -35,8 +35,6 @@
     spotify
     obs-studio
     streamcontroller
-    azahar
-    cemu
     blender
     prismlauncher
     heroic
