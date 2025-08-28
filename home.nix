@@ -40,6 +40,7 @@
     prismlauncher
     heroic
     godot
+    vscode
     
   ];
 }
