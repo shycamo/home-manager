@@ -29,6 +29,7 @@
     pfetch
     vlc
     xclicker
+    syncthing
     # USER PACKAGES #
     floorp
     discord
