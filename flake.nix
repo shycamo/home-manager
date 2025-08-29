@@ -14,7 +14,7 @@
     nixpkgs,
     home-manager,
   } @ inputs: let
-    username = "ash";
+    username = "shy";
     hostname = "shitheap";
 
     homeConfigUserString =
